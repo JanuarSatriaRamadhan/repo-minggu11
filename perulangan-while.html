@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perulangan while</title>
+</head>
+<body>
+    <script>
+        //NAMA      : JANUAR SATRIA RAMADHAN
+        //NIM       : A11.2018.11291
+        var ulangi = confirm("Apakah anda mau mengulang?");
+        var counter = 0;
+
+        while(ulangi){
+            var jawab = confirm("Apakah anda mau mengulang?")
+            counter++;
+            if(jawab == false){
+                ulangi = false;
+            }
+}
+document.write("Perulangan sudah dilakukan sebanyak "+ counter +" kali");
+    </script>
+</body>
+</html>
+
+<!--
+//penyederhanaan script
+var ulangi = confirm("Apakah anda mau mengulang?");
+var counter = 0;
+
+while(ulangi){
+    counter++;
+    ulangi = confirm("Apakah anda mau mengulang?");
+}
+document.write("Perulangan sudah dilakuakn sebanyak "+ counter +" kali");
+ -->
+
+
